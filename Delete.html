@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Deletion Request - Galaxy Watch</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        label, input, textarea {
+            display: block;
+            width: 100%;
+            margin-bottom: 10px;
+            font-size: 1rem;
+        }
+        input, textarea {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #2980b9;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #1f6391;
+        }
+    </style>
+</head>
+<body>
+    <h1>Data Deletion Request - Galaxy Watch</h1>
+    <p>If you wish to request the deletion of your account data from the Galaxy Watch app, please complete the form below. We will process your request as soon as possible.</p>
+
+    <form action="mailto:enderappstut@gmail.com" method="post" enctype="text/plain">
+        <label for="email">Your Account Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="uid">Your User ID (if known):</label>
+        <input type="text" id="uid" name="uid">
+
+        <label for="message">Additional Information (optional):</label>
+        <textarea id="message" name="message" rows="4"></textarea>
+
+        <button type="submit">Submit Request</button>
+    </form>
+
+    <p>If you prefer, you can also email us directly at <strong>[your-email@example.com]</strong> with your account details.</p>
+</body>
+</html>
