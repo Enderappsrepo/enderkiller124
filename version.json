@@ -1,0 +1,10 @@
+{
+  "version": "1.1.0",
+  "changelog": [
+    "🔫 Added new legendary weapons to the item database.",
+    "⚙️ Admin-only item upload form with game selector.",
+    "📰 News section now pulls updates from Firebase.",
+    "🎨 Improved dark theme styling across all pages.",
+    "🛠️ Bug fixes and performance improvements."
+  ]
+}
